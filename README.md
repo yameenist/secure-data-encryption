@@ -1,16 +1,14 @@
 # secure-data-encryption
 
-1. Passkeys hashed (e.g., SHA-256).
-2. 
-3. Secure Encryption & Decryption
-Encrypt data using Caesar cipher or Fernet (from cryptography library).
-Decrypt only when the correct passkey is provided.
-
+1. Passkeys hashed (e.g., SHA-256).   
+2. Secure Encryption & Decryption.
+3.  Encrypt data using Caesar cipher or Fernet (from cryptography library).
+4.  Decrypt only when the correct passkey is provided.
 5. Authentication & Security
 Allow three attempts before forcing a reauthorization/login page.
 Display failed attempts count.
 
-7. Streamlit UI (User-Friendly Interface)
+. Streamlit UI (User-Friendly Interface)
 Home Page: Options to store new data or retrieve data.
 Insert Data Page:
 
